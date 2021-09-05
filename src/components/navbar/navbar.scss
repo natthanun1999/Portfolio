@@ -1,0 +1,10 @@
+@import '../../global.scss';
+
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background-color: $mainColor;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+}
