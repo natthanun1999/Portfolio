@@ -3,8 +3,28 @@
 .navbar {
   width: 100vw;
   height: 70px;
-  background-color: $mainColor;
+  background-color: white;
+  color: $mainColor;
   position: fixed;
   z-index: 2;
   top: 0;
+
+  .wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+
+    .left {
+      display: flex;
+      
+      .logo {
+        color: inherit;
+        font-size: 40px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+    }
+  }
 }
